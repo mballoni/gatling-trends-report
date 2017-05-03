@@ -25,8 +25,8 @@
     -->
   </properties>
 
-  <name>TODO Plugin</name>
-  <description>TODO</description>
+  <name>Gatling Trends Report</name>
+  <description>Create and display a trend report among the desired gatling builds</description>
   <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
 
   <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
@@ -38,15 +38,14 @@
     </license>
   </licenses>
 
-  <!-- If you want this to appear on the wiki page:
+
   <developers>
     <developer>
-      <id>bhacker</id>
-      <name>Bob Q. Hacker</name>
-      <email>bhacker@nowhere.net</email>
+      <id>mballoni</id>
+      <name>Marcelo Balloni</name>
+      <email>marceloballoni@gmail.com</email>
     </developer>
   </developers>
-  -->
   <!-- Assuming you want to host on @jenkinsci:
   <scm>
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
@@ -82,8 +81,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.1</version>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
     </plugins>
